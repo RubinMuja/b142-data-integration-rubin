@@ -1,4 +1,36 @@
-# b142-data-integration-rubin
-B142.Gisma
-# B142 Final Project - Rubin Muja (GH1027906)
-This repository contains the full implementation, code, and documentation for my Apache Spark big data pipeline project.
+# B142 Final Project – COVID-19 Big Data Integration
+
+**Student**: Rubin Muja  
+**Student ID**: GH1027906  
+**Course**: B142 Data Integration  
+**University**: Gisma University of Applied Sciences  
+
+---
+
+## 📁 GitHub Repo  
+https://github.com/RubinMuja/b142-data-integration-rubin
+
+## Video Demo  
+[Insert your YouTube/OneDrive video link here after recording]
+
+---
+
+## Dataset
+
+Dataset: [Google COVID-19 Open Data](https://github.com/GoogleCloudPlatform/covid-19-open-data)  
+Direct file used: [epidemiology.csv](https://storage.googleapis.com/covid19-open-data/v3/epidemiology.csv)
+
+ **Note:** Due to GitHub's 100MB limit, the dataset is not included in this repo.  
+Please download and place it in the `data/` folder manually before running the pipeline.
+
+---
+
+##️ How to Run the Spark Pipeline
+
+1. Download the dataset above and save it as:  
+   `data/epidemiology.csv`
+
+2. Run the Spark script:
+```bash
+spark-submit spark_jobs/etl_pipeline.py
+
