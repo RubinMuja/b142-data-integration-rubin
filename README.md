@@ -11,7 +11,6 @@
 https://github.com/RubinMuja/b142-data-integration-rubin
 
 ## Video Demo  
-[Insert your YouTube/OneDrive video link here after recording]
 
 ---
 
